@@ -1,4 +1,4 @@
-package: github.com/home-control/controller
+package: github.com/kayatra/controller
 import:
 - package: github.com/Sirupsen/logrus
 - package: github.com/voxelbrain/goptions

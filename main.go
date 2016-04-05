@@ -3,8 +3,8 @@ package main
 import(
   log "github.com/Sirupsen/logrus"
   "github.com/voxelbrain/goptions"
-  "github.com/home-control/controller/config"
-  "github.com/home-control/controller/web"
+  "github.com/kayatra/controller/config"
+  "github.com/kayatra/controller/web"
 )
 
 type options struct {

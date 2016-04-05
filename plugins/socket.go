@@ -7,7 +7,7 @@ import(
   "net/http"
   "net"
   "sync/atomic"
-  "github.com/home-control/core/transport"
+  "github.com/kayatra/core/transport"
 )
 
 var upgrader = websocket.Upgrader{
