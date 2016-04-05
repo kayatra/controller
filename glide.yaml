@@ -1,0 +1,6 @@
+package: github.com/home-control/controller
+import:
+- package: github.com/Sirupsen/logrus
+- package: github.com/voxelbrain/goptions
+- package: github.com/gin-gonic/gin
+- package: github.com/gorilla/websocket
