@@ -4,7 +4,7 @@ import(
   "github.com/gin-gonic/gin"
   log "github.com/Sirupsen/logrus"
   "time"
-  "github.com/kayatra/controller/plugins"
+  "github.com/kayatra/core/transport"
 )
 
 func logger() gin.HandlerFunc{
@@ -52,7 +52,7 @@ func Start(bind string){
   router.Use(gin.Recovery())
 
   router.GET("/plugin/transport", func(c *gin.Context){
-    plugins.Transport(c.Writer, c.Request)
+    transport.Server(c.Writer, c.Request)
   })
 
   log.WithFields(log.Fields{
